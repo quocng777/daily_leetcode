@@ -1,5 +1,7 @@
 package utils;
 
+import java.util.Arrays;
+
 public class Assurance {
   public static <T> void isEqualsArray(T[] arr1, T[] arr2) {
     if (arr1.length != arr2.length) {
@@ -13,6 +15,15 @@ public class Assurance {
     }
 
     System.out.print("Passed");
+  }
+
+  public static <T> void isEqualsArray(T[] arr1, T[] arr2, boolean ignoreOrder) {
+    if (ignoreOrder) {
+      Arrays.sort(arr1);
+      Arrays.sort(arr2);
+    }
+
+    isEqualsArray(arr1, arr2);
   }
 
   public static <T> void isEquals(T arr1, T arr2) {

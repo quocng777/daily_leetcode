@@ -1,0 +1,5 @@
+You need to search or compare elements from both ends.
+
+You're trying to reduce time complexity from O(n²) to O(n) by avoiding nested loops.
+
+The array is often sorted (but not always required).
