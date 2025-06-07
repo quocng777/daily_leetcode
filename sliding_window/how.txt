@@ -1,0 +1,9 @@
+Ask yourself:
+
+"Am I dealing with subarrays or substrings?"
+
+"Is the problem asking for a sum, count, or max/min of elements in a range?"
+
+"Can I reuse part of the work done in the previous step?"
+
+If yes → Sliding Window might help!
