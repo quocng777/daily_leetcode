@@ -1,0 +1,8 @@
+How It Works
+- Iterate over the array.
+
+- At each index i, check if nums[i] is at the correct index.
+
+- If not, swap it with the element at its correct index: nums[nums[i] - 1]
+
+- Do not move to the next index until the current number is correctly placed.

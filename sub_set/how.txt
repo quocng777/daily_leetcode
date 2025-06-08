@@ -1,0 +1,14 @@
+Backtracking technique
+
+void backtrack(choices, path) {
+  if (path is a solution) {
+    add to result;
+    return;
+  }
+
+  for (choice in choices) {
+    make choice;
+    backtrack(remaining choices, path + choice);
+    undo choice;
+  }
+}
