@@ -1,0 +1,5 @@
+Detect a cycle in a linked list  => 	Check if a loop exists
+Find the starting node of a cycle   => 	Identify where the loop begins
+Find the middle of a linked list	=> Get the midpoint efficiently
+Check if a linked list is a palindrome =>	Traverse backward with reverse
+Remove nth node from end =>	Maintain gap using pointers

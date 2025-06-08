@@ -1,0 +1,10 @@
+Core Idea
+1. Sort intervals by the start time.
+
+2. Initialize a result list with the first interval.
+
+3. Iterate through the remaining intervals:
+
+4. If current interval overlaps with the last one in the result, merge them.
+
+5. Otherwise, append the current interval to the result.
